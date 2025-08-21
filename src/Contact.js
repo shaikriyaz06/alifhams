@@ -83,11 +83,11 @@ const ContactUs = () => {
       const isJobSeeker = formData.userType === "jobSeeker";
       if (isClient) {
         response = await axios.post(
-          "http://localhost:8000/user/mail",
+          "/user/mail",
           formData
         );
       } else if (isJobSeeker) {
-        response = await axios.post("http://localhost:8000/user/contactus", formData, {
+        response = await axios.post("/user/contactus", formData, {
           headers: { "Content-Type": "multipart/form-data" },
         });
       }
