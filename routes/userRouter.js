@@ -41,7 +41,7 @@ router.post("/mail", async (req, res) => {
     userType,
   } = req.body;
   const mailOptions = {
-    from: "testpilotsamctg@gmail.com",
+    from: "testbasesamctg@gmail.com",
     to: "shaikriyaz222@gmail.com",
     subject: `Client: ${name} wants to get in touch with you!!`,
     html: `
@@ -128,7 +128,7 @@ router.post(
     const portfolio = req.body.portfolio || "NA";
     const coverLetter = req.body.coverLetter || "NA";
     let mailOptions = {
-      from: "testpilotsamctg@gmail.com",
+      from: "testbasesamctg@gmail.com",
       to: "shaikriyaz222@gmail.com",
       subject: `Job Seeker: ${name} wants to join your team!`,
       html: `

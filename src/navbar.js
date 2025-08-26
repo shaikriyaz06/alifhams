@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "./assets/Main_Logo.png";
+import logo from "./assets/file.svg";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -156,7 +156,7 @@ function Navbar() {
       <div className="flex justify-between items-center h-[85px]">
         {/* Logo */}
         <div className="flex-shrink-0 flex items-center">
-          <img src={logo} className="h-16 w-48" alt="Logo" />
+          <img src={logo} className="h-20 rounded-lg" alt="Logo" />
         </div>
 
         {/* Desktop Menu */}

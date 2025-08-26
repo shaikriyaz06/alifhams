@@ -74,15 +74,17 @@ const Footer = () => {
             <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
             <div className="space-y-2">
               <p className="text-gray-300">
-                123 Tech Street
+                Office #603
                 <br />
-                Silicon Valley, CA 94025
+                Golden Business Center
+                <br/>
+                Port Saeed, Deira, Dubai.
               </p>
               <p className="text-gray-300">
                 Phone: +1 (555) 123-4567
               </p>
               <p className="text-gray-300">
-                Email: info@alif.com
+                Email: digitalifshams@outlook.com
               </p>
             </div>
           </div>
